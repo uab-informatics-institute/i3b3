@@ -1,5 +1,5 @@
 # i2b2 Infobuttons
-This plugin is a proof of concept showing the integration of infobuttons into i2b2.  After supplying the plugin with a patient previously created in i2b2, the i2b2 Infobutton Plugin will return all of the chosen concepts (diagnoses, medications, etc.) for each patient.  Clicking on a concept will send an HL7-compliant request to OpenInfobutton, which will query known resources for the default institution (UAB in this case) and return a list of context-aware links in a new window.
+This plugin is a proof of concept showing the integration of infobuttons into i2b2.  After supplying the plugin with a patient set previously created in i2b2, the i2b2 Infobutton Plugin will return all of the chosen concepts (diagnoses, medications, etc.) for each patient.  Clicking on a concept will send an HL7-compliant request to OpenInfobutton, which will query known resources for the default institution (UAB in this case) and return a list of context-aware links in a new window.
 
 ## Installation
 This package was built to be housed inside i2b2's standard plugin directory which is located at `/var/www/html/webclient/js-i2b2/cells/plugins/standard/` if it hasn't been changed.
