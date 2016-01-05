@@ -110,6 +110,16 @@ ul.patient-list {
     padding-left: 0;
 }
 
+ul.patient-list li {
+    line-height: 200%;
+}
+
+.infobutton-icon {
+    height: 16px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
 /*** Format Help section ***/
 h1 {
     font-size: 1.5em;

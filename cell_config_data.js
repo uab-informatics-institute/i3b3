@@ -26,6 +26,7 @@
         "short_name": "InfoButton Plugin",
         "name": "InfoButton Plugin -- basic build to get it working",
         "description": "Plugin built to retrieve information from OpenInfoButton in an HL7 compliant standard",
+        "icons": { "size32x32": "infobutton32x32.png" },
         "category": ["celless", "plugin", "standard"],
         "plugin": {
             "isolateHtml": false,

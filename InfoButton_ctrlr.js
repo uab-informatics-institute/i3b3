@@ -425,7 +425,7 @@ i2b2.InfoButton.displayPatientList = function(patientXmlObject) {
             // directly communicate with OpenInfoButton based on user's chosen concept
             if (i2b2.InfoButton.model.cncptRec) {   // user has dropped cncpt in ui
                 var cncptName = i2b2.h.getXNodeVal(i2b2.InfoButton.model.cncptRec.origData.xmlOrig, "name").toLowerCase().replace(/ /gi, "%20");    // get name of cncpt and then lower case all words and replace spaces with http symbol for use in oi url
-                display += "<li><a href=\"#\" onClick=\"i2b2.InfoButton.getPopupUrl('" + cncptName + "', '" + patient.age_in_years_num + "', '" + patient.sex_cd + "')\">" + patientDisplayInfo + "</li>";
+                display += "<li>" + patientDisplayInfo + "<a href=\"#\" onClick=\"i2b2.InfoButton.getPopupUrl('" + cncptName + "', '" + patient.age_in_years_num + "', '" + patient.sex_cd + "')\"><img class=\"infobutton-icon\" src=\"js-i2b2/cells/plugins/standard/InfoButton/assets/infobutton32x32.png\" alt=\"infobutton\" /></a></li>";
             
             // user went with one of the default concepts (radiobutton concepts)
             } else {
@@ -499,7 +499,7 @@ i2b2.InfoButton.displayConcepts = function(patientXmlObject) {
 
             // Select appropriate <ul> element and place into i2b2.InfoButton.translateConceptCode()
             var displayElement = document.getElementById(observation.patient_id);
-            displayElement.innerHTML += "<li><a href=\"#\" onClick=\"i2b2.InfoButton.getPopupUrl('" + cncptName + "', '" + patient.age_in_years_num + "', '" + patient.sex_cd + "')\">" + observation.concept_cd_name + "</a></li>";
+            displayElement.innerHTML += "<li>" + observation.concept_cd_name + "<a href=\"#\" onClick=\"i2b2.InfoButton.getPopupUrl('" + cncptName + "', '" + patient.age_in_years_num + "', '" + patient.sex_cd + "')\"><img class=\"infobutton-icon\" src=\"js-i2b2/cells/plugins/standard/InfoButton/assets/infobutton32x32.png\" alt=\"infobutton\" /></a></li>";
         }
     }
 
