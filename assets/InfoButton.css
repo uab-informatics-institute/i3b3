@@ -1,5 +1,5 @@
 /**
- * This file is a part of the I2B2 InfoButtonPlugin
+ * This file is a part of the I2B2 i2b2InfobuttonsPlugin
  * Copyright (C) 2015  Tim Kennell Jr. and James Cimino, MD
  * one line to give the program's name and an idea of what it does.
  * 
@@ -20,33 +20,33 @@
  **/
 
 /*** CSS for mainDiv ***/
-div#InfoButton-div {
+div#i2b2Infobuttons-div {
     padding: 0px;
 }
 
 /*** CSS for tab background ***/
-div#InfoButton-TABS div.yui-content {
+div#i2b2Infobuttons-TABS div.yui-content {
     background: #FFF;
 }
 
-div.InfoButton-MainContent, div.InfoButton-HelpContent {
+div.i2b2Infobuttons-MainContent, div.i2b2Infobuttons-HelpContent {
     background-color: #FFF;
     border: solid #63758C;
     border-width: 1px 0;
     height: 100%;
 }
 
-div.InfoButton-HelpContent {
+div.i2b2Infobuttons-HelpContent {
     overflow-y: auto;
 }
 
-div.InfoButton-MainContentPad, div.InfoButton-HelpContentPad {
+div.i2b2Infobuttons-MainContentPad, div.i2b2Infobuttons-HelpContentPad {
     position: relative;
     height: 100%;
     padding: 10px;
 }
 
-div.InfoButton-HelpContentPad {
+div.i2b2Infobuttons-HelpContentPad {
     padding-bottom: 80px;
 }
 

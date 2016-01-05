@@ -34,7 +34,7 @@
             "standardTabs": true,
             "html": {
                 "source": "injected_screens.html",
-                "mainDivId": "InfoButton-div"
+                "mainDivId": "i2b2Infobuttons-div"
             }
         }
     }
