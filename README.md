@@ -4,11 +4,14 @@ This plugin is a proof of concept showing the integration of infobuttons into i2
 ## Installation
 This package was built to be housed inside i2b2's standard plugin directory which is located at `/var/www/html/webclient/js-i2b2/cells/plugins/standard/` if it hasn't been changed.
 
-1. Copy the files in this repository to your i2b2 instance's plugin directory (typically `/var/www/html/webclient/js-i2b2/cells/plugins/standard/`)
-2. Add the following lines of code to the `i2b2.hive.tempCellsList = []` array in the file  `/var/www/html/webclient/js-i2b2/i2b2_loader.js`
+1. Copy the files (can be done via one of two methods explained below) in this repository to your i2b2 instance's plugin directory (typically `/var/www/html/webclient/js-i2b2/cells/plugins/standard/`)
+    1. (the hard way) Literally copy the files in this repository into a new directory created in the plugin directory
+    2. (the easy way) Install git and clone this repository into the plugin directory
+
+2. Add the following lines of code to the `i2b2.hive.tempCellsList = []` array in the file  `/var/www/html/webclient/js-i2b2/i2b2_loader.js` (note that the value of "code: " must be the same name as the directory housing the plugin)
 
     ```javascript
-    { code: "InfoButton",
+    { code: "i2b2-infobuttons",
       forceLoading: true,
       forceConfigMsg: { params: [] },
       forceDir: "cells/plugins/standard"
