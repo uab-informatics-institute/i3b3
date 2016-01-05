@@ -17,6 +17,8 @@ This package was built to be housed inside i2b2's standard plugin directory whic
       forceDir: "cells/plugins/standard"
     },
     ```
+    
+    Remove the ending comma if it is the last item in the array.
 3. Restart jBoss service or i2b2 server if necessary
 
 ## Customization
