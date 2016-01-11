@@ -1,7 +1,7 @@
 /**
  * This file is a part of the I2B2 InfoButtonPlugin
  * Copyright (C) 2015  Tim Kennell Jr. and James Cimino, MD
- * one line to give the program's name and an idea of what it does.
+ * i2b2InfoButtons integrates infobuttons into i2b2 through a plugin
  * 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
