@@ -12,7 +12,7 @@ This package was built to be housed inside i2b2's standard plugin directory whic
 2. Add the following lines of code to the `i2b2.hive.tempCellsList = []` array in the file  `/var/www/html/webclient/js-i2b2/i2b2_loader.js` (note that the value of "code: " must be the same name as the directory housing the plugin)
 
     ```javascript
-    { code: "i2b2Infobuttons",
+    { code: "i3b3",
       forceLoading: true,
       forceConfigMsg: { params: [] },
       forceDir: "cells/plugins/standard"
