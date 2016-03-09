@@ -24,7 +24,7 @@
     "css": ["InfoButton.css"],
     "config": {
         "short_name": "i3b3",
-        "name": "i3b3 -- an infoButton plugin",
+        "name": "i3b3 -- an infobutton plugin",
         "description": "Retrieve information from context-specific information from knowledge resources using OpenInfoButton in an HL7 compliant standard",
         "icons": { "size32x32": "infobutton32x32.png" },
         "category": ["celless", "plugin", "standard"],
