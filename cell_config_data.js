@@ -23,9 +23,9 @@
     "files": ["InfoButton_ctrlr.js"],
     "css": ["InfoButton.css"],
     "config": {
-        "short_name": "InfoButton Plugin",
-        "name": "InfoButton Plugin -- basic build to get it working",
-        "description": "Plugin built to retrieve information from OpenInfoButton in an HL7 compliant standard",
+        "short_name": "i3b3",
+        "name": "i3b3 -- an infoButton plugin",
+        "description": "Retrieve information from context-specific information from knowledge resources using OpenInfoButton in an HL7 compliant standard",
         "icons": { "size32x32": "infobutton32x32.png" },
         "category": ["celless", "plugin", "standard"],
         "plugin": {
