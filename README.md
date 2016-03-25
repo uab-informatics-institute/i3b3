@@ -1,4 +1,4 @@
-# i2b2 Infobuttons
+# i3b3: i2b2 Infobuttons
 This plugin is a proof of concept showing the integration of infobuttons into i2b2.  After supplying the plugin with a patient set previously created in i2b2, the i2b2 Infobutton Plugin will return all of the chosen concepts (diagnoses, medications, etc.) for each patient.  Clicking on a concept will send an HL7-compliant request to OpenInfobutton, which will query known resources for the default institution (UAB in this case) and return a list of context-aware links in a new window.
 
 ## Installation
@@ -13,7 +13,7 @@ This package was built to be housed inside i2b2's standard plugin directory whic
 2. Add the following lines of code to the `i2b2.hive.tempCellsList = []` array in the file  `/var/www/html/webclient/js-i2b2/i2b2_loader.js` (note that the value of "code: " must be the same name as the directory housing the plugin)
 
     ```javascript
-    { code: "i2b2Infobuttons",
+    { code: "i3b3",
       forceLoading: true,
       forceConfigMsg: { params: [] },
       forceDir: "cells/plugins/standard"
