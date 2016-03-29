@@ -20,8 +20,8 @@
  **/
 
 {
-    "files": ["InfoButton_ctrlr.js"],
-    "css": ["InfoButton.css"],
+    "files": ["i3b3_ctrlr.js"],
+    "css": ["i3b3.css"],
     "config": {
         "short_name": "i3b3",
         "name": "i3b3 -- an infobutton plugin",
@@ -34,7 +34,7 @@
             "standardTabs": true,
             "html": {
                 "source": "injected_screens.html",
-                "mainDivId": "i2b2Infobuttons-div"
+                "mainDivId": "i3b3-div"
             }
         }
     }
