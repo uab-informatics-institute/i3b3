@@ -505,7 +505,7 @@ i2b2.i3b3.displayConcepts = function(patientXmlObject) {
 
             // Select appropriate <ul> element and place into i2b2.i3b3.translateConceptCode()
             var displayElement = document.getElementById(observation.patient_id);
-            displayElement.innerHTML += "<li>" + observation.concept_cd_name + " (" + observation.patient_id + "; " + observation.event_id + "; " + observation.concept_cd + "; " + observation.start_date + "; " + observation.end_date + "; " + observation.modifier_cd + "; " + observation.instance_num + ") " + "<a href=\"#\" onClick=\"i2b2.i3b3.getPopupUrl('" + cncptName + "', '" + patient.age_in_years_num + "', '" + patient.sex_cd + "')\"><img class=\"infobutton-icon\" src=\"js-i2b2/cells/plugins/standard/i3b3/assets/infobutton32x32.png\" alt=\"infobutton\" /></a></li>";
+            displayElement.innerHTML += "<li>" + observation.concept_cd_name + /*" (" + observation.patient_id + "; " + observation.event_id + "; " + observation.concept_cd + "; " + observation.start_date + "; " + observation.end_date + "; " + observation.modifier_cd + "; " + observation.instance_num + ") " + */"<a href=\"#\" onClick=\"i2b2.i3b3.getPopupUrl('" + cncptName + "', '" + patient.age_in_years_num + "', '" + patient.sex_cd + "')\"><img class=\"infobutton-icon\" src=\"js-i2b2/cells/plugins/standard/i3b3/assets/infobutton32x32.png\" alt=\"infobutton\" /></a></li>";
         }
     }
 
