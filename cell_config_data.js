@@ -20,8 +20,8 @@
  **/
 
 {
-    "files": ["InfoButton_ctrlr.js"],
-    "css": ["InfoButton.css"],
+    "files": ["i3b3_ctrlr.js"],
+    "css": ["i3b3.css"],
     "config": {
         "short_name": "InfoButton Plugin",
         "name": "InfoButton Plugin -- basic build to get it working",
